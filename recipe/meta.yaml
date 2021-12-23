@@ -1,5 +1,5 @@
 {% set name = "xcollection" %}
-{% set version = "2021.12.1" %}
+{% set version = "2021.12.23" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xcollection-{{ version }}.tar.gz
-  sha256: 166f51e6c99fd216feee1ea7132e3e1df17030386634457d73f0cdc7fe9d5661
+  sha256: 7865549a0d53380e3a09070ce4ddd8768c61d19125904e518766697d3cb6991a
 
 build:
   number: 0
@@ -36,11 +36,15 @@ test:
 
 about:
   home: https://github.com/NCAR/xcollection
-  summary: Extends xarray's data model to be able to handle a dictionary of xarray datasets. 
+  summary: Extends xarray's data model to be able to handle a dictionary of xarray datasets.
   dev_url: https://github.com/NCAR/xcollection
+  doc_url: https://xcollection.readthedocs.io
   license: Apache-2.0
   license_file: LICENSE
 
 extra:
   recipe-maintainers:
     - andersy005
+    - jukent
+    - kmpaul
+    - mgrover1

@@ -11,6 +11,8 @@ Summary: Extends xarray's data model to be able to handle a dictionary of xarray
 
 Development: https://github.com/NCAR/xcollection
 
+Documentation: https://xcollection.readthedocs.io
+
 Current build status
 ====================
 
@@ -119,4 +121,7 @@ Feedstock Maintainers
 =====================
 
 * [@andersy005](https://github.com/andersy005/)
+* [@jukent](https://github.com/jukent/)
+* [@kmpaul](https://github.com/kmpaul/)
+* [@mgrover1](https://github.com/mgrover1/)
 
